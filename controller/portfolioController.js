@@ -7,11 +7,11 @@ router.get('/', (req, res) => {
     res.render('index');
 });
 
-router.get('contact', (req, res) => {
-    res.render('contact');
+router.get('/about', (req, res) => {
+    res.render('about');
 });
 
-router.get('portfolio', (req, res) => {
+router.get('/portfolio', (req, res) => {
     res.render('portfolio');
 });
 
