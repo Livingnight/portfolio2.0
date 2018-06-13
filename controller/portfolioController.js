@@ -11,7 +11,7 @@ router.get('/about', (req, res) => {
     res.render('about');
 });
 
-router.get('/portfolio', (req, res) => {
+router.get('/projects', (req, res) => {
     res.render('portfolio');
 });
 

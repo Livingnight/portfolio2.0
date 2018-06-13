@@ -1,15 +1,105 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'PT Serif', serif;
+}
+/*a{*/
+    /*color: gray;*/
+/*}*/
+main {
+    flex: 1 0 auto;
+}
 nav {
     position: fixed;
     top: 0px;
-    /*left: 9px;*/
-    /*right: 9px;*/
     height: 50px;
-    /*background-color: rgba(125, 125, 125, 0.5);*/
     transition:0.7s;
 }
-.container {
-    text-align: center;
-    margin-top: 60px;
-    border: 1px solid blue;
-    width: 25%;
+#github{
+    height: 100px;
+    width: 100px;
 }
+#linkedin{
+    height: 100px;
+    width: 100px;
+}
+#stack-overflow{
+    height: 100px;
+    width: 100px;
+}
+.profile {
+    padding: 20px 10px 5px 10px;
+    height: 256px;
+    width: 200px;
+}
+a.brand-logo{
+    font-size: 45px;
+    margin-top: -9px;
+    padding-left: 10px;
+}
+.grey-text.text-darken-1{
+    font-size: 35px;
+    margin-top: -7px;
+}
+.containAbout {
+    text-align: center;
+    margin: auto auto;
+
+}
+.containAbout img{
+    width: 154px;
+}
+.indexParallax1 {
+    /* The image used */
+    background-image: url("../images/galaxyZelda.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.indexParallax2 {
+    /* The image used */
+    background-image: url("../images/galaxyZelda.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutParallax1 {
+    /* The image used */
+    background-image: url("../images/2swordMaster.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutParallax2 {
+    /* The image used */
+    background-image: url("../images/2swordMaster.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
