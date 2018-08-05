@@ -3,6 +3,8 @@ body {
     min-height: 100vh;
     flex-direction: column;
     font-family: 'PT Serif', serif;
+    background-image: url("../images/galaxyZelda.jpg");
+
 }
 /*a{*/
     /*color: gray;*/
@@ -12,8 +14,9 @@ main {
 }
 nav {
     position: fixed;
+    line-height: 550%;
     top: 0px;
-    height: 50px;
+    height: 75px;
     transition:0.7s;
 }
 #github{
@@ -101,5 +104,58 @@ a.brand-logo{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.portfolioParallax1 {
+    /* The image used */
+    background-image: url("../images/galaxyZelda.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioParallax2 {
+    /* The image used */
+    background-image: url("../images/galaxyZelda.jpg");
+
+    /* Set a specific height */
+    height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolio-project-links{
+    display: block;
+    margin: 0 auto;
+}
+.portfolio-project-links li {
+    list-style-type: none;
+    display: inline-block;
+    /*margin: 0 auto;*/
+}
+.project1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*position: relative;*/
+    height: 60%;
+    /*overflow: auto;*/
+    /*display: flex;*/
+}
+.project-title {
+    text-align: center;
+}
+.reading-list-img {
+    display: block;
+    max-height: 60%;
+    max-width: 60%;
+    margin: 0 auto;
 }
 
